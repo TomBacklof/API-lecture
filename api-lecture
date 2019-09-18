@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <script src="script2.js"></script>
+    </head>
+<body>
+
+    <iframe id= "video" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+    
+</html>
+
+
+
+
+
+fetch('https://api.discogs.com/releases/249504')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    var iframe = document.getElementById(iframe);
+    
+
+});
